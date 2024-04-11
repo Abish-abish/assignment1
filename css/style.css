@@ -1,0 +1,80 @@
+/* Author name:Abish
+Start date:11-4-2024 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section {
+   
+    width: 100%;
+    height: auto;
+  
+}
+.wrap-div1{
+    height: 300px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section1-heading{
+    text-align: center;
+    color: #eaeaea;
+    font-size: 25px;
+    margin-bottom: 20px;
+} 
+p.section1-paragraph {
+    text-align: center;
+    color: #eaeaea;
+    font-size: 20px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.section1-btn-wrap{
+    display: flex;
+    justify-content: center;
+}
+button.section1-btn {
+    font-size: 17px;
+    width: auto;
+    height: 39px;
+    padding: 5px 17px;
+    background-color: #333333;
+    border: 1px solid #eaeaea;
+    color: #eaeaea;
+}
+.wrap-div2{
+    background-color: #eaeaea;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.section2-heading{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+} 
+p.section2-paragraph {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+/* small-screen */
+@media screen and (min-width:320px) and (max-width:991px){
+    p.section1-paragraph {
+        font-size: 18px;
+     
+    }
+}
