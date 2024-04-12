@@ -50,11 +50,49 @@ p{
     align-items: center;
     justify-content: center
 }
+.section2{
+    min-height: 60vh;
+    background-color: #333333;
+}
+/* section3 */
+.section-3 {
+    background-color: #333333;
+    min-height: 60vh;
+}
+.section3-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.card {
+    width: 30%;
+    padding: 1rem;
+    background: #eaeaea;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+.section-3 h3{
+    text-align: center;
+    font-size: 1.5rem;
 
+}
+.section-3 p{
+    text-align: center;
+    font-size: 1rem;
+    
+}
 /* small screen */
 @media screen and (max-width:576px){
-    .head-section1{
-        min-height: 100vh;
+ 
+    .head-section2{
+        min-height: auto;
     
     }
+ 
 }
